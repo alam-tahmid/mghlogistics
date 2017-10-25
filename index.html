@@ -326,7 +326,7 @@
             <div class="container">
                 <div class="row">
                     <div class="card-deck">
-                        <div class="card col-md-4 card-nav-tabs">
+                        <div class="card col-md-4 card-nav-tabs" id="exp1">
                             <!-- Tabs with icons on Card -->
                             <div class="header header-success">
                                 <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -346,7 +346,7 @@
                         </div>
                         <!-- End Tabs with icons on Card -->
 
-                        <div class="card col-md-4 card-nav-tabs">
+                        <div class="card col-md-4 card-nav-tabs" id="exp2">
                             <!-- Tabs with icons on Card -->
                             <div class="header header-success">
                                 <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -365,7 +365,7 @@
                             </div>
                         </div>
 
-                        <div class="card col-md-4 card-nav-tabs">
+                        <div class="card col-md-4 card-nav-tabs" id="exp3">
                             <!-- Tabs with icons on Card -->
                             <div class="header header-success">
                                 <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -389,7 +389,7 @@
 
                 <div class="row">
                     <div class="card-deck">
-                        <div class="card col-md-4 card-nav-tabs">
+                        <div class="card col-md-4 card-nav-tabs" id="exp4">
                             <!-- Tabs with icons on Card -->
                             <div class="header header-success">
                                 <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -409,7 +409,7 @@
                         </div>
                         <!-- End Tabs with icons on Card -->
 
-                        <div class="card col-md-4 card-nav-tabs">
+                        <div class="card col-md-4 card-nav-tabs" id="exp5">
                             <!-- Tabs with icons on Card -->
                             <div class="header header-success">
                                 <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -428,7 +428,7 @@
                             </div>
                         </div>
 
-                        <div class="card col-md-4 card-nav-tabs">
+                        <div class="card col-md-4 card-nav-tabs" id="exp6">
                             <!-- Tabs with icons on Card -->
                             <div class="header header-success">
                                 <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -451,7 +451,7 @@
                 </br>
                 <div class="row" style="margin-bottom:25px">
                     <div class="card-deck">
-                        <div class="card col-md-4 card-nav-tabs">
+                        <div class="card col-md-4 card-nav-tabs" id="exp7">
                             <!-- Tabs with icons on Card -->
                             <div class="header header-success">
                                 <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -471,7 +471,7 @@
                         </div>
                         <!-- End Tabs with icons on Card -->
 
-                        <div class="card col-md-4 card-nav-tabs">
+                        <div class="card col-md-4 card-nav-tabs" id="exp8" >
                             <!-- Tabs with icons on Card -->
                             <div class="header header-success">
                                 <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -490,7 +490,7 @@
                             </div>
                         </div>
 
-                        <div class="card col-md-4 card-nav-tabs">
+                        <div class="card col-md-4 card-nav-tabs" id="exp9">
                             <!-- Tabs with icons on Card -->
                             <div class="header header-success">
                                 <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -1151,14 +1151,14 @@
                 <div class="row">
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 half-image" id="phoneImg">
-                        <img src="inc/iphone.png" />
+                        <img src="inc/iphoneXX.png" />
                     </div><!-- col-lg-6 -->
 
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="appDesc">
 
                         <h2>myShipment App</h2>
-                        <h6>We care for users on the go, which means apps at finger tips!</h6></br>
+                        <h6 >We care for users on the go, which means apps at finger tips!</h6></br>
 
                         <p>
                             <strong>All-Round Tracking App</strong></br>
@@ -1166,7 +1166,7 @@
                             <strong>Your Own Handy Tool</strong></br>
                             By creating visibility, no matter where you are, presently it is easy as ever to track shipment with our new global mobile device application.
                         </p>
-
+                        <h3> We are Coming Soon!</h3>
                     </div><!-- col-lg-4 -->
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <a href="https://itunes.apple.com/us/app/myshipment-supplier/id1168561725?mt=8&ign-mpt=uo%3D4" id="androidApp"> <img src="inc/apple.png"/></a>
@@ -1340,7 +1340,6 @@
     window.sr1 = ScrollReveal({ reset: true , origin: 'left', duration: 1500,distance: '30px', mobile: true});
     window.sr2 = ScrollReveal({ reset: true , origin: 'right', duration: 1500, distance: '30px', mobile: true});
     window.sr3 = ScrollReveal({reset: true});
-    window.sr4 = ScrollReveal();
     sr1.reveal('#whatwedo1');
     sr2.reveal('#whatwedo2');
     sr1.reveal('#whatwedo3');
@@ -1351,7 +1350,17 @@
     sr2.reveal('#appDesc');
     sr1.reveal("#androidApp");
     sr2.reveal("#appleApp");
-    sr3.reveal("#expertise");
+
+
+    sr1.reveal('#exp1');
+    sr2.reveal('#exp2');
+    sr1.reveal('#exp3');
+    sr2.reveal('#exp4');
+    sr1.reveal('#exp5');
+    sr2.reveal('#exp6');
+    sr1.reveal('#exp7');
+    sr2.reveal('#exp8');
+    sr1.reveal("#exp9");
 
 
 </script>

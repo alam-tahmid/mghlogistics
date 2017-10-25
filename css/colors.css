@@ -150,12 +150,14 @@ p {
 /* team section */
 
 .l-team-section {
-    background-color: #213943;
-    color: #fff;
+    /* background-color: #213943; */
+    background-color: #fff;
+    /* color: #fff; */
+    color: #000;
 }
 
 .l-team-section h1, .l-team-section h2, .l-team-section h3, .l-team-section h4, .l-team-section h5, .l-team-section h6, .l-team-section p {
-    color: #fff;
+    color: #000;
 }
 
 .l-team-section .m-heading-border {
