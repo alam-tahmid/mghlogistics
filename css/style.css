@@ -439,7 +439,8 @@ h2 {
 }
 
 .half-image img {
-    max-width: 100%;
+    /* max-width: 100%; */
+    max-width: 67%;
 }
 
 /* SOCIAL ICONS */
