@@ -9,6 +9,7 @@
 }
 .cb-slideshow:after {
     content: '';
+    /* background: transparent url(../images/pattern.png) repeat top left; */
     background: transparent url(../images/pattern.png) repeat top left;
 }
 .cb-slideshow li span {
@@ -61,7 +62,7 @@
     color:#fff;
 }
 .cb-slideshow li:nth-child(1) span {
-    background-image: url('../inc/magic-pixel.png'), url(../images/1.jpg)
+    background-image: url('../inc/magic-pixel.png'), url(../images/1.jpg);
 }
 .cb-slideshow li:nth-child(2) span {
     background-image:url('../inc/magic-pixel.png'), url(../images/2.jpg);
